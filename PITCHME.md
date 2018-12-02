@@ -1,5 +1,6 @@
 ## Motivation I
 * Often, contracts are de-facto unenforceable due to high legal costs
+* Yet, contracts like this are ubiquitious (you have one with UC Davis)
 * A more through literature review would (hopefully) show that these contracts are under-therorized
 
 ---
@@ -10,38 +11,40 @@
 
 ---
 ## Specific Research Question:
-Can we model unenforceable contracts as a coordination tool in a repeated game?
+Are unenforceable contracts model-able as a coordination tool in a repeated game?
 
 ---
 ## The Model
 ---
 ### Players
 1. Producer
-    1. Able to produce one unit of good each period, at cost $c~U[0,1]$.
-    2. c is private information
-    3. good is useless to producer
+    * Able to produce one unit of good each period, at cost $c \backsim U[0,1]$.
+    * $c$ is private information
+    * good is useless to producer
 2. Consumer
-    1. Values good at 1 each period
+    * Values good at 1 each period
 ---
 ### Mechanics
 1. Before start, producer and consumer may write a contract, but there is no enforcement mechanism
-    2. c is revieled to producer
-    3. Consumer makes TIOLI offer to producer, who then chooses whetehr or not to produce ($q \in {0, 1}$}
-    4. repeat
+2. Production Cost $c$ is revieled to producer
+3. Consumer makes TIOLI offer to producer, who then chooses whetehr or not to produce ($q \in \{0, 1\}$)
+4. repeat
 ---
 ### Objectives
-1. Producer maximizes $$\sum^{\infty}_{t = 0} \beta^t (p_t - c_t)q_t$$
-2. Consumer maximizes $$\sum^{\infty}_{t = 0} (1-p_t)q_t $$
+1. Producer's objective function: $$\sum^{\infty}_{t = 0} \beta^t (p_t - c_t)q_t$$
+2. Consumer's objective function: $$\sum^{\infty}_{t = 0} (1-p_t)q_t $$
 
 
 ---
 ### Equilibrium Concept
 
 Equilibrium is 
-1. Functions $$p_t( p_{t-1}, q_{t-1}, ... , p_{0}, q_{0}$$ for each period, (pricing rule)
-2. Functions $$q_t(p_t, c_t, p_{t-1}, c_{t-1}, q_{t-1}, ... , p_{0}, c_{0}, q_{0}$$ for each period (production function)
+1. Pricing rule for each period
+$$p_t( p_{t-1}, q_{t-1}, ... , p_{0}, q_{0}$$
+2. Quantity rule (production function) for each period 
+$$q_t(p_t, c_t, p_{t-1}, c_{t-1}, q_{t-1}, ... , p_{0}, c_{0}, q_{0}$$ 
 
-Such that $q_t(\cdot)$ optomizes the producesr's objective function given $p_t(\cdot)$, and $p_t(\cdot)$ optomizes the consumers objective function given $q_t(\cdot)$
+Such that $q_t(\cdot)$ optomizes the producesr's objective function given functions $p_t(\cdot)$, and $p_t(\cdot)$ optomizes the consumers objective function given functions $q_t(\cdot)$
 
 --- 
 
