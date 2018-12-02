@@ -14,7 +14,7 @@ Can we model unenforceable contracts as a coordination tool in a repeated game?
 
 ---
 ## The Model
---
+---
 ### Players
 1. Producer
         1. Able to produce one unit of good each period, at cost c~U[0,1]
@@ -22,19 +22,19 @@ Can we model unenforceable contracts as a coordination tool in a repeated game?
         3. good is useless to producer
 2. Consumer
         1. Values good at 1 each period
---
+---
 ### Mechanics
 1. Before start, producer and consumer may write a contract, but there is no enforcement mechanism
 		2. c is revieled to producer
 		3. Consumer makes TIOLI offer to producer, who then chooses whetehr or not to produce ($q \in {0, 1}$}
 		4. repeat
---
+---
 ### Objectives
 1. Producer maximizes $$\sum^{\infinity}_{t = 0} \beta^t ((p_t - c_t)q_t)$$
 2. Consumer maximizes $$\sum^{\infinity}_{t = 0} ((1-p_t)q_t) $$
 
 
---
+---
 ### Equilibrium Concept
 
 Equilibrium is 
@@ -43,20 +43,20 @@ Equilibrium is
 
 Such that $q_t(\cdot)$ optomizes the producesr's objective function given $p_t(\cdot)$, and $p_t(\cdot)$ optomizes the consumers objective function given $q_t(\cdot)$
 
--- 
+--- 
 
 ## Solving
 * Existance
 * Uniqueness
 * Optimiality
 
---
+---
 ## Existance
 * Call the one-shot equilibrium the "baseline" case
 * $p_t = .5$, $q_t = {1 if c_t < p_t, 0 o.w.}$ 
 
 
---
+---
 
 ## Uniqueness
 * $p_t= 0$, $q_t = 0$ is also a (trivial) equilibrium, so not unique
@@ -68,26 +68,26 @@ Such that $q_t(\cdot)$ optomizes the producesr's objective function given $p_t(\
 * What if a contract lets us write a repeated game?
 * Let's try using the Value Function methods from 200D
 
---
+---
 
 ## A Better Equilibrium
 
 * Contract: Consumer offers some $p> .5$  every time, and producer produces every time, even when $c > p$
 * If the producer ever refuses, consumer offers $p = .5$ forever.
 
---
+---
 ## Incentive Compatablity
 ### Consumer
 * Baseline expected Consumer payoff = $\frac{1}{1-\beta} .25$
 * Under this contract, Consumer payoff is $\frac{1}{1-\beta} (1-p)$
 * Contract is incentive compatable for Consumer if $p \leq .75$
---
+---
 ## Incentive Compatablity
 ### Producer
 * After realization of $c$, producer chooses between $q= 0$ and $q=1$
 * Expected payoff of $q=0$ is $\frac{B}{1-\beta} .125$
 * Expected payoff of $q=1$ is $p = c +\frac{B}{1-\beta} (p-.5)$
---
+---
 ## Incentive Compatablity
 ### Producer
 
@@ -97,6 +97,6 @@ Such that $q_t(\cdot)$ optomizes the producesr's objective function given $p_t(\
 * if $\beta = .9 $, $p \geq .66$ is incentive compatable for producer
 * if $\beta = 1.0 $, $p \geq .62$ is incentive compatable for producer
 
---
+---
 ## Conclusions
 For many plausible discount factors, we can write a contract that is completely non-binding, but facilitates an equilibrium that is welfare-improving for both players, and achieves the 1st best outcome
