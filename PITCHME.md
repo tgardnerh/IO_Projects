@@ -57,7 +57,7 @@ Such that $q_t(\cdot)$ optomizes the producesr's objective function given functi
 ## Existance
 * Call the one-shot equilibrium the "baseline" case
 	* $p_t = .5$
-	* $q_t = \{1 \text{if} c_t < p_t, 0 \text{o.w.}\}$ 
+	* $q_t = \{ 1 \text{ if } c_t < p_t, 0 \text{ o.w.} \}$ 
 
 
 ---
@@ -95,10 +95,10 @@ Such that $q_t(\cdot)$ optomizes the producesr's objective function given functi
 ### Producer
 
 * Contract is incentive compatable for producer if payoff of $q = 1$ is greater than or equal to payoff of $q = 0$ even when $c = 1$
-* If $\beta > .663$, $p \geq .75$ is incentive compatable for producer
-* if $\beta = .8 $, $p \geq .69$ is incentive compatable for producer
-* if $\beta = .9 $, $p \geq .66$ is incentive compatable for producer
-* if $\beta = 1.0 $, $p \geq .62$ is incentive compatable for producer
+* If $\beta > .663$, $p \geq .75$ is I.C. for producer
+* if $\beta = .8 $, $p \geq .69$ is I.C. for producer
+* if $\beta = .9 $, $p \geq .66$ is I.C. for producer
+* if $\beta = 1.0 $, $p \geq .62$ is I.C. for producer
 
 ---
 ## Conclusions
