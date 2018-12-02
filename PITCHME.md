@@ -44,7 +44,7 @@ Pricing rule for each period
 $$\sum^{\infty}_{t = 0} (1-p_t)q_t $$
 
 
-$ p_t( p_{t-1}) $
+$$ p_t( p_{t-1}) $$
 
 , q_{t-1}, ... , p_{0}, q_{0} )
 
