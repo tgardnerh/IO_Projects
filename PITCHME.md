@@ -27,7 +27,7 @@ Are unenforceable contracts model-able as a coordination tool in a repeated game
 ### Mechanics
 1. Before start, producer and consumer may write a contract, but there is no enforcement mechanism
 2. Production Cost $c$ is revieled to producer
-3. Consumer makes TIOLI offer to producer, who then chooses whetehr or not to produce ($q \in \{0, 1\}$)
+3. Consumer makes TIOLI offer to producer, who then chooses whetehr or not to produce ($q \in {0, 1}$)
 4. repeat
 ---
 ### Objectives
