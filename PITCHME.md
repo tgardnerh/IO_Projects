@@ -42,6 +42,10 @@ Equilibrium is
 Pricing rule for each period
 $$p_t( p_t_-, q_t_-, ... , p_0, q_0$$
 
+
+---
+
+
 $$p_t( p_{t-1}, q_{t-1}, ... , p_{0}, q_{0}$$
 Quantity rule (production function) for each period 
 $$q_t(p_t, c_t, p_{t-1}, c_{t-1}, q_{t-1}, ... , p_{0}, c_{0}, q_{0}$$ 
