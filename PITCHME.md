@@ -56,7 +56,7 @@ Such that $q_t(\cdot)$ optomizes the producesr's objective function given functi
 ---
 ### Equilibrium Concept
 
-$$p_t( p^{t-1})$$
+$$p_t( p_{t-1})$$
 
 --- 
 
