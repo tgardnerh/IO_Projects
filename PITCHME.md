@@ -17,11 +17,11 @@ Can we model unenforceable contracts as a coordination tool in a repeated game?
 ---
 ### Players
 1. Producer
-        1. Able to produce one unit of good each period, at cost c~U[0,1]
-        2. c is private information
-        3. good is useless to producer
+    1. Able to produce one unit of good each period, at cost c~U[0,1]
+    2. c is private information
+    3. good is useless to producer
 2. Consumer
-        1. Values good at 1 each period
+    1. Values good at 1 each period
 ---
 ### Mechanics
 1. Before start, producer and consumer may write a contract, but there is no enforcement mechanism
