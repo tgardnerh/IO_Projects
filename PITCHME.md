@@ -56,7 +56,8 @@ Such that $q_t(\cdot)$ optomizes the producesr's objective function given functi
 ---
 ## Existance
 * Call the one-shot equilibrium the "baseline" case
-* $p_t = .5$, $q_t = {1 if c_t < p_t, 0 o.w.}$ 
+	* $p_t = .5$
+	* $q_t = \{1 \text{if} c_t < p_t, 0 \text{o.w.}\}$ 
 
 
 ---
