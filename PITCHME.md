@@ -38,7 +38,6 @@ Are unenforceable contracts model-able as a coordination tool in a repeated game
 ---
 ### Equilibrium Concept
 
----
 Equilibrium is 
 Pricing rule for each period
 $$\sum^{\infty}_{t = 0} (1-p_t)q_t $$
@@ -53,6 +52,11 @@ Quantity rule (production function) for each period
 $ q_t(p_t, c_t, p_{t-1}, c_{t-1}, q_{t-1}, ... , p_{0}, c_{0}, q_{0}) $
 
 Such that $q_t(\cdot)$ optomizes the producesr's objective function given functions $p_t(\cdot)$, and $p_t(\cdot)$ optomizes the consumers objective function given functions $q_t(\cdot)$
+
+---
+### Equilibrium Concept
+
+$$p_t$$
 
 --- 
 
