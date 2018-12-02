@@ -17,7 +17,7 @@ Can we model unenforceable contracts as a coordination tool in a repeated game?
 ---
 ### Players
 1. Producer
-    1. Able to produce one unit of good each period, at cost c~U[0,1]
+    1. Able to produce one unit of good each period, at cost $c~U[0,1]$.
     2. c is private information
     3. good is useless to producer
 2. Consumer
@@ -25,21 +25,21 @@ Can we model unenforceable contracts as a coordination tool in a repeated game?
 ---
 ### Mechanics
 1. Before start, producer and consumer may write a contract, but there is no enforcement mechanism
-		2. c is revieled to producer
-		3. Consumer makes TIOLI offer to producer, who then chooses whetehr or not to produce ($q \in {0, 1}$}
-		4. repeat
+    2. c is revieled to producer
+    3. Consumer makes TIOLI offer to producer, who then chooses whetehr or not to produce ($q \in {0, 1}$}
+    4. repeat
 ---
 ### Objectives
-1. Producer maximizes $$\sum^{\infinity}_{t = 0} \beta^t ((p_t - c_t)q_t)$$
-2. Consumer maximizes $$\sum^{\infinity}_{t = 0} ((1-p_t)q_t) $$
+1. Producer maximizes $$\sum^{\infty}_{t = 0} \beta^t (p_t - c_t)q_t$$
+2. Consumer maximizes $$\sum^{\infty}_{t = 0} (1-p_t)q_t $$
 
 
 ---
 ### Equilibrium Concept
 
 Equilibrium is 
-1. Functions $p_t( p_{t-1}, q_{t-1}, ... , p_{0}, q_{0}$ for each period, (pricing rule)
-2. Functions $q_t(p_t, c_t, p_{t-1}, c_{t-1}, q_{t-1}, ... , p_{0}, c_{0}, q_{0}$ for each period (production function)
+1. Functions $$p_t( p_{t-1}, q_{t-1}, ... , p_{0}, q_{0}$$ for each period, (pricing rule)
+2. Functions $$q_t(p_t, c_t, p_{t-1}, c_{t-1}, q_{t-1}, ... , p_{0}, c_{0}, q_{0}$$ for each period (production function)
 
 Such that $q_t(\cdot)$ optomizes the producesr's objective function given $p_t(\cdot)$, and $p_t(\cdot)$ optomizes the consumers objective function given $q_t(\cdot)$
 
@@ -66,7 +66,6 @@ Such that $q_t(\cdot)$ optomizes the producesr's objective function given $p_t(\
 ## Optimality
 * Can we do better?
 * What if a contract lets us write a repeated game?
-* Let's try using the Value Function methods from 200D
 
 ---
 
@@ -100,3 +99,8 @@ Such that $q_t(\cdot)$ optomizes the producesr's objective function given $p_t(\
 ---
 ## Conclusions
 For many plausible discount factors, we can write a contract that is completely non-binding, but facilitates an equilibrium that is welfare-improving for both players, and achieves the 1st best outcome
+
+---
+## Extensions
+* In cases where it is not always efficient to produce, we would like a contract that lets producer choose $q=0$ sometimes
+* Using the VF methods from 200D we can design a more sophisitcated strategy that allows us to examine more complicated strategy  space
