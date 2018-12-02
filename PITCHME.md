@@ -40,9 +40,9 @@ Are unenforceable contracts model-able as a coordination tool in a repeated game
 
 Equilibrium is 
 Pricing rule for each period
-$$p_t( p_{t-1}, q_{t-1}, ... , p_{0}, q_{0}$$
+$p_t( p_{t-1}, q_{t-1}, ... , p_{0}, q_{0}$
 Quantity rule (production function) for each period 
-$$q_t(p_t, c_t, p_{t-1}, c_{t-1}, q_{t-1}, ... , p_{0}, c_{0}, q_{0}$$ 
+$q_t(p_t, c_t, p_{t-1}, c_{t-1}, q_{t-1}, ... , p_{0}, c_{0}, q_{0}$
 
 Such that $q_t(\cdot)$ optomizes the producesr's objective function given functions $p_t(\cdot)$, and $p_t(\cdot)$ optomizes the consumers objective function given functions $q_t(\cdot)$
 
