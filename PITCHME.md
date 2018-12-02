@@ -40,7 +40,7 @@ Are unenforceable contracts model-able as a coordination tool in a repeated game
 
 Equilibrium is 
 Pricing rule for each period
-$$p_t( p_t_-, q_t_-, ... , p_0, q_0$$
+$$p_t( p_t_-, q_t_-, ... , p_0, q_0) $$
 
 
 ---
