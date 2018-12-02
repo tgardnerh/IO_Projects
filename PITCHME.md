@@ -38,6 +38,7 @@ Are unenforceable contracts model-able as a coordination tool in a repeated game
 ---
 ### Equilibrium Concept
 
+---
 Equilibrium is 
 Pricing rule for each period
 
