@@ -1,7 +1,7 @@
 ## Motivation I
 * Often, contracts are de-facto unenforceable due to high legal costs
 * Yet, contracts like this are ubiquitous (you have one with UC Davis)
-* A more through literature review would (hopefully) show that these contracts are under-therorized
+* A more through literature review would (hopefully) show that these contracts are under-theorized
 
 ---
 ## Motivation II
