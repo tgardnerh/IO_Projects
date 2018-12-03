@@ -1,3 +1,11 @@
+## My life lately:
+![HappyBaby](BabyPhotos/IMG_1162.jpg)
+
+---
+## But also:
+![ScreamingChild](BabyPhotos/IMG_1131.jpg)
+
+---
 ## Motivation I
 * Often, contracts are de-facto unenforceable due to high legal costs
 * Yet, contracts like this are ubiquitous (you have one with UC Davis)
