@@ -1,6 +1,6 @@
 ## Motivation I
 * Often, contracts are de-facto unenforceable due to high legal costs
-* Yet, contracts like this are ubiquitious (you have one with UC Davis)
+* Yet, contracts like this are ubiquitous (you have one with UC Davis)
 * A more through literature review would (hopefully) show that these contracts are under-therorized
 
 ---
@@ -26,8 +26,8 @@ Are unenforceable contracts model-able as a coordination tool in a repeated game
 ---
 ### Mechanics
 1. Before start, producer and consumer may write a contract, but there is no enforcement mechanism
-2. Production Cost $c$ is revieled to producer
-3. Consumer makes TIOLI offer to producer, who then chooses whetehr or not to produce ($q \in \{0, 1\}$)
+2. Production Cost $c$ is reviled to producer
+3. Consumer makes TIOLI offer to producer, who then chooses whether or not to produce ($q \in \{0, 1\}$)
 4. repeat
 ---
 ### Objectives
@@ -44,17 +44,17 @@ Equilibrium is
 
 * Quantity rule (production function) for each period $q_t(p_t, c_t, p_s, c_s, q_s, ... , p_0, c_0, q_0)$
 
-Such that $q_t(\cdot)$ optomizes the producesr's objective function given functions $p_t(\cdot)$, and $p_t(\cdot)$ optomizes the consumers objective function given functions $q_t(\cdot)$
+Such that $q_t(\cdot)$ optimizes the producer's objective function given functions $p_t(\cdot)$, and $p_t(\cdot)$ optimizes the consumers objective function given functions $q_t(\cdot)$
 
 --- 
 
 ## Solving
-* Existance
+* Existence
 * Uniqueness
-* Optimiality
+* Optimality
 
 ---
-## Existance
+## Existence
 * Call the one-shot equilibrium the "baseline" case
 	* $p_t = .5$
 	* $q_t = \{ 1 \text{ if } c_t < p_t, 0 \text{ o.w.} \}$ 
@@ -79,27 +79,28 @@ Such that $q_t(\cdot)$ optomizes the producesr's objective function given functi
 * If the producer ever refuses, consumer offers $p = .5$ forever.
 
 ---
-## Incentive Compatablity
+## Incentive Compatibility
 ### Consumer
 * Baseline expected Consumer payoff = $\frac{1}{1-\beta} .25$
 * Under this contract, Consumer payoff is $\frac{1}{1-\beta} (1-p)$
-* Contract is incentive compatable for Consumer if $p \leq .75$
+* Contract is incentive compatible for Consumer if $p \leq .75$
 ---
-## Incentive Compatablity
+## Incentive Compatibility
 ### Producer
 * After realization of $c$, producer chooses between $q= 0$ and $q=1$
 * Expected payoff of $q=0$ is $\frac{B}{1-\beta} .125$
 * Expected payoff of $q=1$ is $p = c +\frac{B}{1-\beta} (p-.5)$
 ---
-## Incentive Compatablity
+## Incentive Compatibility
 ### Producer
 
-* Contract is incentive compatable for producer if payoff of $q = 1$ is greater than or equal to payoff of $q = 0$ even when $c = 1$
+* Contract is incentive compatible for producer if payoff of $q = 1$ is greater than or equal to payoff of $q = 0$ even when $c = 1$
 * If $\beta > .663$, $p \geq .75$ is I.C. for producer
 * if $\beta = .8 $, $p \geq .69$ is I.C. for producer
 * if $\beta = .9 $, $p \geq .66$ is I.C. for producer
 * if $\beta = 1.0 $, $p \geq .62$ is I.C. for producer
-
+---
+## Notes on Efficiency
 ---
 ## Conclusions
 For many plausible discount factors, we can write a contract that is completely non-binding, but facilitates an equilibrium that is welfare-improving for both players, and achieves the 1st best outcome
@@ -107,15 +108,6 @@ For many plausible discount factors, we can write a contract that is completely 
 ---
 ## Extensions
 * In cases where it is not always efficient to produce, we would like a contract that lets producer choose $q=0$ sometimes
-* Using the VF methods from 200D we can design a more sophisitcated strategy that allows us to examine more complicated strategy  space
-
----
-### Equilibrium Concept
-
-Equilibrium is 
-* Pricing rule for each period $p_t( p_s, q_{t-1}, ... , p_0, q_0) $
+* Using the VF methods from 200D we can design a more sophisticated strategy that allows us to examine more complicated strategy  space
 
 
-* Quantity rule (production function) for each period $q_t(p_t, c_t, p_s, c_s, q_s, ... , p_0, c_0, q_0)$
-
-Such that $q_t(\cdot)$ optomizes the producesr's objective function given functions $p_t(\cdot)$, and $p_t(\cdot)$ optomizes the consumers objective function given functions $q_t(\cdot)$
