@@ -101,6 +101,10 @@ Such that $q_t(\cdot)$ optimizes the producer's objective function given functio
 * if $\beta = 1.0 $, $p \geq .62$ is I.C. for producer
 ---
 ## Notes on Efficiency
+* This equilibrium is perfectly efficient--easy because $c \leq v$ for all realizations
+* This type of equilibrium could still hold if $c > v$ sometimes holds
+* That would still be an improvement in efficiency
+
 ---
 ## Conclusions
 For many plausible discount factors, we can write a contract that is completely non-binding, but facilitates an equilibrium that is welfare-improving for both players, and achieves the 1st best outcome
