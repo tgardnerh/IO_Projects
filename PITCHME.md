@@ -1,9 +1,9 @@
 ## My life lately:
-![HappyBaby](BabyPhotos/IMG_1162small.jpg =100x)
+![HappyBaby](BabyPhotos/IMG_1162small.jpg)
 
 ---
 ## But also:
-![ScreamingChild](BabyPhotos/IMG_1131small.jpg =100x)
+![ScreamingChild](BabyPhotos/IMG_1131small.jpg)
 
 ---
 ## Motivation I
